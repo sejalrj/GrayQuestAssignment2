@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  
+<title>LOGIN PAGE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <form action="/postlogin/"  method="post">
+        {% csrf_token %}
+      
+      <center><h3 style="color: rgb(128, 125, 118); font-size: 30px;">Login user <b></b></h3></center><center>
+         <input type="text" id="ip1" placeholder="Username" name="username" class="input" required>
+    
+        <input type="password" id="ip4"placeholder=" Password" name="password" class="input" required>
+        <button type="submit" class="button">LogIN</button>
+    </center>
+    </form>
+
+</body>
+
+</html>
